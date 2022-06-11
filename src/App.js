@@ -24,9 +24,9 @@ function App() {
         <Dashboard />
       </Route>
 
-      <Route path='/stocks/:symbol'>
-        <Stock />
-      </Route>
+      <Route path='/stocks/:symbol' render={(renderProps) => {
+        return <Stock {...renderProps} />
+      }}/>
 
     </div>
   );

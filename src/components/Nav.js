@@ -5,7 +5,7 @@ import React from 'react'
 const Nav = () => {
   return (
     <div className='nav'>
-        <Link to='/'>
+        <Link to='/stocks'>
             <div>Home / Dashboard page</div>
         </Link>
 

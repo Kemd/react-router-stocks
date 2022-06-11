@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.stocks {
+  border: 1px solid blue;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-content: start;
+}
