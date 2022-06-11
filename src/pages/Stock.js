@@ -1,9 +1,15 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
+import stocks from '../stocks-data'
 
-const Stock = () => {
-  return (
-    <h1>This is the Stocks page</h1>
-  )
+const Stock = ({match}) => {
+    stocks.map((stock, idx) => {
+        const symbol = match.params.symbol
+        function handleClick() {
+            return (
+                stock.name[idx]
+            )
+        }
+    })
 }
 
 export default Stock
