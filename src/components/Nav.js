@@ -4,7 +4,15 @@ import React from 'react'
 
 const Nav = () => {
   return (
-    <h1>This is the nav bar</h1>
+    <div className='nav'>
+        <Link to='/'>
+            <div>Home / Dashboard page</div>
+        </Link>
+
+        <Link to='/about'>
+            <div>About page</div>
+        </Link>
+    </div>
   )
 }
 
