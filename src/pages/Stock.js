@@ -1,9 +1,9 @@
+require('dotenv').config();
 import {useEffect, useState} from 'react'
 import stocks from '../stocks-data'
 
 const Stock = (props) => {
 
-    const apikey = '62327e1aab76f927ab965fb16d631df9'
     const symbol = props.match.params.symbol
     // console.log(symbol)
 
