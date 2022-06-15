@@ -5,7 +5,6 @@ import About from './pages/About';
 import Dashboard from './pages/Dashboard';
 import Home from './pages/Home';
 import Stock from './pages/Stock';
-import stocks from './stocks-data';
 import Nav from './components/Nav';
 
 function App() {
